@@ -16,5 +16,6 @@ RUN apt-get -qq update && \
     texlive-pictures \
     chktex \
     latexmk \
-    r-base && \
+    r-base \
+    build-essential && \
     Rscript requirements.r
