@@ -1,5 +1,6 @@
 FROM ubuntu:20.04
 ARG DEBIAN_FRONTEND=noninteractive
+COPY requirements.r requirements.r
 RUN apt-get -qq update && \
     apt-get install -y --no-install-recommends \
     ghostscript \
