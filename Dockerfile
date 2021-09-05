@@ -14,4 +14,6 @@ RUN apt-get -qq update && \
     texlive-pstricks \
     texlive-pictures \
     chktex \
-    latexmk
+    latexmk \
+    r-base && \
+    Rscript requirements.r
