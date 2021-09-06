@@ -19,3 +19,4 @@ RUN apt-get -qq update && \
     r-base \
     build-essential && \
     Rscript requirements.r
+CMD ["sh"]
